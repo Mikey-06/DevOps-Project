@@ -25,6 +25,7 @@ yum install jenkins
 
 - To set up your installation, visit Jenkins on its default port, 8080, using your server domain name or IP address: http://public_ip_:8080
 - In the terminal window, use the cat command to display the password
-      ```
-      sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-      ```
+  
+  ```
+  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  ```
