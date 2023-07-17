@@ -16,15 +16,15 @@ yum install jenkins
   sudo systemctl start jenkins.service
   ```
 
-  - We’ll use the status command to verify that Jenkins started successfully
+- We’ll use the status command to verify that Jenkins started successfully
     ```
     sudo systemctl status jenkins
     ```
 
     ## STEP-02 Setting Up Jenkins
 
-    - To set up your installation, visit Jenkins on its default port, 8080, using your server domain name or IP address: http://public_ip_:8080
-    - n the terminal window, use the cat command to display the password
+- To set up your installation, visit Jenkins on its default port, 8080, using your server domain name or IP address: http://public_ip_:8080
+- In the terminal window, use the cat command to display the password
       ```
       sudo cat /var/lib/jenkins/secrets/initialAdminPassword
       ```
